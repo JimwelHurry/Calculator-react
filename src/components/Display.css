@@ -1,0 +1,23 @@
+.display {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  margin-bottom: 20px;
+  padding: 20px;
+  font-size: 2rem;
+  color: #333;
+  text-align: right;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.display .input {
+  font-size: 1.5rem;
+  opacity: 0.8;
+}
+
+.display .result {
+  font-size: 2rem;
+  font-weight: bold;
+}

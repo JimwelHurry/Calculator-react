@@ -1,0 +1,18 @@
+.theme-switcher {
+  margin-bottom: 20px;
+}
+
+.theme-switcher button {
+  background: rgba(0, 0, 0, 0.1);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  color: #333;
+  transition: background 0.2s;
+}
+
+.theme-switcher button:hover {
+  background: rgba(0, 0, 0, 0.2);
+}

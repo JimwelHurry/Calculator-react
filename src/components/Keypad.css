@@ -1,0 +1,30 @@
+.keypad {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+}
+
+button {
+  background: rgba(255, 255, 255, 0.7);
+  border: none;
+  border-radius: 50%;
+  padding: 15px 0;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+button:active {
+  transform: scale(0.95);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+button.orange {
+  background: linear-gradient(135deg, #ff9500, #ffb700);
+  color: white;
+}
+
+button.gray {
+  background: rgba(200, 200, 200, 0.7);
+}
